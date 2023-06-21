@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Vulnerabilities</string>
+    <string name="code_execution">Code Execution</string>
+    <string name="memory_corruption">Memory Corruption</string>
+    <string name="android_vulnerabilities">Android Vulnerabilities:</string>
+    <string name="denial_of_service">Denial of Service</string>
+    <string name="bypass_something">Bypass something</string>
+    <string name="sql_injection">SQL Injection</string>
+    <string name="sql_injection1">SQL Injection:</string>
+    <string name="search">Search</string>
+    <string name="enter_user_name_to_search">Enter User name to search</string>
+    <string-array name="choose">
+        <item>Low</item>
+        <item>High</item>
+    </string-array>
+</resources>

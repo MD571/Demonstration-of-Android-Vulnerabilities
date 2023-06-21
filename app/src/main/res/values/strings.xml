@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Android Vulnerabilities</string>
+    <string name="code_execution">Code Execution</string>
+    <string name="memory_corruption">Memory Corruption</string>
+    <string name="android_vulnerabilities">Android Vulnerabilities:</string>
+    <string name="denial_of_service">Denial of Service</string>
+    <string name="bypass_something">Bypass something</string>
+    <string name="sql_injection">SQL Injection</string>
+    <string name="sql_injection1">SQL Injection:</string>
+    <string name="search">Search</string>
+    <string name="enter_user_name_to_search">Enter User name to search</string>
+    <string-array name="choose">
+        <item>Low</item>
+        <item>High</item>
+    </string-array>
+    <string name="ids1_intro"><b>Objective</b>: Find out where/how the credentials are being stored and the vulnerable code.\n
+                             <b>Hint</b>: Insecure data storage is the result of storing confidential information insecurely
+                             on the system i.e. poor encryption, plain text, access control issues etc. </string>
+    <string name="ids1_user">Enter 3rd party service user name</string>
+    <string name="ids1_password">Enter 3rd party service password</string>
+    <string name="ids1_save">SAVE</string>
+    <string name="ivi2_intro"><b>Objective</b>: Try accessing any sensitive information apart from a web URL.\n
+                             <b>Hint</b>: Improper or no input validation issue arise when the input is not filtered or validated
+                             before using it. When developing components that take input from outside, always validate it.
+                             </string>
+    <string name="ivi2_enter">Enter the URL to view</string>
+
+    <string name="ivi2_view">VIEW</string>
+    <string name="ivi3_intro"><b>Objective</b>: This is a Missile Launch App. Spread love not War! DOS the Damn thing! Your
+                             objective here is to NOT find the code and then launch the missiles, rather it is
+                             to crash the app (and then find the root cause the crash).\n
+                             <b>Hint</b>: Improper or no input validation issue arise when the input is not filtered or validated
+                             before using it. When developing components that take input from outside, always validate it.
+                             This is a classic memory corruption vulnerability. If you can get code execution, I would love to hear
+                             from you. I dont expect anyone to go that far though.</string>
+    <string name="ivi3_enter">Enter Launch Code for WOMD</string>
+    <string name="ivi3_stop">PUSH THE RED BUTTON</string>
+    <string name="save_show"><![CDATA[Save&Show]]></string>
+    <string name="authentication_session_management"><![CDATA[Authentication & Session Management]]></string>
+</resources>
